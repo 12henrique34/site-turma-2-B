@@ -1,5 +1,40 @@
-header{
-    background-color: gray;
-    color: rgb(0, 225, 255);;
+*{
+    margin: 0;
+    padding: 0;
+}
 
+
+header{
+    background-color: rgb(90, 247, 0);
+    color: rgb(0, 0, 0);;
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cabecalho-imagem{
+    width: 15%;
+}
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 26px;
+}
+.escola-imagem{
+    width: 25%;
+}
+.Estudantes{
+    background-image: linear-gradient(rgb(90, 247, 0),rgb(247, 7, 7));
+    color:black;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    padding: 24px 0;
+}
+.alunos-texto-um{
+    width: 35%;
+}
+.estudantes-titulo{
+    padding: 24px 0;
 }
